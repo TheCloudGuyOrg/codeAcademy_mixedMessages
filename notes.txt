@@ -1,4 +1,7 @@
+Output: 
 
-signInfo: ['star', 'moon', 'sun', 'comet'],
-fortuneOutput: ['terrible luck', 'bad luck', 'ok luck', 'good luck', 'great luck'],
-advice: ['go out and eat', 'not read this', 'play more', 'trust no one']
+Your sign is ['star', 'moon', 'sun', 'comet'].
+
+You are having ['terrible luck', 'bad luck', 'ok luck', 'good luck', 'great luck']. 
+
+You should: ['go out and eat', 'not read this', 'play more', 'trust no one']
