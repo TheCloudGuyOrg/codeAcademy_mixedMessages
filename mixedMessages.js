@@ -4,4 +4,12 @@ const messages = {
     advice : ['go out and eat', 'not read this', 'play more', 'trust no one']
 }
 
-console.log(messages.advice);
+function randomGenerator (array) {
+    return Math.floor(Math.random()* array.length);
+
+}
+
+console.log(`Your sign right now is a "${messages.signInfo[randomGenerator(messages.signInfo)]}".`);
+console.log(`You are having: "${messages.fortuneOutput[randomGenerator(messages.fortuneOutput)]}".`);
+console.log(`You should: "${messages.advice[randomGenerator(messages.advice)]}".`);
+
